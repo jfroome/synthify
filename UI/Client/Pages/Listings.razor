@@ -1,0 +1,97 @@
+﻿@page "/listings"
+@inject HttpClient Http
+@using SynthSearcherUI.Shared
+
+@if (listings == null)
+{
+    <MudText>Loading listings...</MudText>
+    <MudProgressCircular Color="Color.Default" Indeterminate="true" />
+}
+else
+{
+       <MudStack>
+        <MudCard>
+            <MudCardContent>
+                <MudForm>
+                    <MudStack>
+                        <MudTextField @bind-Value="SearchText" Label="Search" Variant="Variant.Outlined" Adornment="Adornment.End" AdornmentIcon="@Icons.Material.Filled.Search" AdornmentColor="Color.Secondary" Immediate="true" />
+                        <MudGrid>
+                            <MudItem xs="6">
+                                <MudNumericField @bind-Value="MinValue" Label="Min. Price" Immediate="true" Variant="Variant.Text" Min="0" Max="10000000" />
+                            </MudItem>
+                            <MudItem xs="6">
+                                <MudNumericField @bind-Value="MaxValue" Label="Max. Price" Immediate="true" Variant="Variant.Text" Min="0" Max="10000000" />
+                            </MudItem>
+                        </MudGrid>
+                        <MudGrid>
+                            <MudItem xs="6">
+                                <MudCheckBox @bind-Checked="InStock">In stock</MudCheckBox>
+                            </MudItem>
+                            <MudItem xs="6">
+                                <MudCheckBox @bind-Checked="NonZeroPrice">Only display non-zero prices</MudCheckBox>
+                            </MudItem>
+                        </MudGrid>
+                    </MudStack>
+                </MudForm>
+            </MudCardContent>
+        </MudCard>
+        <MudTable Items="listings" Hover="true" SortLabel="Sort By" Elevation="0" Filter="SearchListings">
+            <HeaderContent>
+                <MudTh><MudTableSortLabel Enabled="true" SortBy="new Func<Listing, object>(x => x.price)">Price</MudTableSortLabel></MudTh>
+                <MudTh>
+                    <MudTableSortLabel Enabled="true" SortBy="new Func<Listing, object>(x => x.title)">
+                        Title/Link
+                    </MudTableSortLabel>
+                </MudTh>
+                <MudTh><MudTableSortLabel Enabled="true" SortBy="new Func<Listing, object>(x => x.site)">Link</MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel Enabled="true" SortBy="new Func<Listing, object>(x => x.date_recorded)">Date Recorded</MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel Enabled="true" SortBy="new Func<Listing, object>(x => x.InStock)">In stock?</MudTableSortLabel></MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Price">@context.FormattedPrice</MudTd>
+                <MudTd DataLabel="Title">@context.FormattedTitle</MudTd>
+                <MudTd><MudLink Target="_blank" Href="@context.url">@(context.site)...</MudLink></MudTd>
+                <MudTd DataLabel="Date Recorded">@context.FormattedRecordedDate</MudTd>
+                <MudTd DataLabel="InStock">
+                    @{
+                        if (context.InStock == true)
+                        {
+                            <MudIcon Icon="@Icons.Material.Filled.Check"></MudIcon>
+                        }
+                        else
+                        {
+                            <MudIcon Icon="@Icons.Material.Filled.NotInterested"></MudIcon>
+                        }
+                    }
+                </MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager PageSizeOptions="new int[]{50, 100}" />
+            </PagerContent>
+        </MudTable>
+    </MudStack>
+}
+@code {
+    public List<Listing>? listings = new List<Listing>();
+    public string SearchText { get; set; } = "";
+    public bool InStock { get; set; } = true;
+    public bool NonZeroPrice { get; set; } = true;
+    public int? MinValue { get; set; } = null;
+    public int? MaxValue { get; set; } = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        listings = await Http.GetFromJsonAsync<List<Listing>>("Listing");
+        Console.WriteLine(listings);
+    }
+
+    public bool SearchListings(Listing listing)
+    {
+        return listing.title != null && listing.title.ToUpperInvariant().Contains(SearchText.ToUpperInvariant()) &&
+                (listing.InStock != null && listing.InStock == InStock) &&
+                (!NonZeroPrice || (listing.price != null && listing.price > 0) &&
+                (MinValue is null || listing.price >= MinValue) &&
+                (MaxValue is null || listing.price <= MaxValue)
+                );
+    }
+}

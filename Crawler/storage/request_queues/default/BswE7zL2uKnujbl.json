@@ -1,0 +1,9 @@
+{
+	"id": "BswE7zL2uKnujbl",
+	"json": "{\"id\":\"BswE7zL2uKnujbl\",\"url\":\"https://www.spacemanmusic.com/product/korg-nanopad2/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/korg-nanopad2/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/korg-nanopad2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\"},\"handledAt\":\"2023-01-16T21:45:41.057Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.spacemanmusic.com/product/korg-nanopad2",
+	"url": "https://www.spacemanmusic.com/product/korg-nanopad2/"
+}

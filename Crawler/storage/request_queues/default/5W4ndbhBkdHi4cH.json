@@ -1,0 +1,9 @@
+{
+	"id": "5W4ndbhBkdHi4cH",
+	"json": "{\"id\":\"5W4ndbhBkdHi4cH\",\"url\":\"https://www.spacemanmusic.com/product/korg-z1/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/korg-z1/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/korg-z1\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\"},\"handledAt\":\"2023-01-16T21:45:13.397Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://www.spacemanmusic.com/product/korg-z1",
+	"url": "https://www.spacemanmusic.com/product/korg-z1/"
+}

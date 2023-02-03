@@ -1,0 +1,38 @@
+﻿@inherits LayoutComponentBase
+
+<MudThemeProvider IsDarkMode="true"/>
+
+<MudDialogProvider />
+<MudSnackbarProvider />
+
+<MudLayout>
+    <MudAppBar Color="Color.Default" Elevation="5">
+        
+        <MudIconButton Icon="@Icons.Material.Filled.Menu" Color="Color.Inherit" Edge="Edge.Start" OnClick="@((e) => DrawerToggle())" />
+        <MudSpacer />
+        <MudText Align="Align.Center" Typo="Typo.h6" Style="margin-right: 10px;">Ottawa Synth Listings</MudText>
+        <MudImage Src="synthesizer.png" Width="50"></MudImage>
+
+    </MudAppBar>
+    <MudDrawer @bind-Open="_drawerOpen" Elevation="1">
+        <NavMenu />
+    </MudDrawer>
+    <MudMainContent>
+        <MudContainer MaxWidth="MaxWidth.Large" Class="my-16 pt-16">
+            @Body
+        </MudContainer>
+    </MudMainContent>
+@*    <MudAppBar Dense="true" Style="height: 50px;" Bottom="true" Fixed="true" Color="Color.Dark" >
+        <MudSpacer />*@
+        <MudText GutterBottom="true" Align="Align.Center" Typo="Typo.body1">© 2023 Ottawa Synth Listings - App built with Blazor WASM and <MudLink Href="https://github.com/MudBlazor/MudBlazor/">MudBlazor</MudLink></MudText>
+@*    </MudAppBar>*@
+</MudLayout>
+
+@code {
+    bool _drawerOpen = true;
+
+    void DrawerToggle()
+    {
+        _drawerOpen = !_drawerOpen;
+    }
+}

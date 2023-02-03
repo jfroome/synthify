@@ -1,0 +1,19 @@
+{
+	"uid": "xme8irKXhHvKuJl4zW6BBTRc/mY=",
+	"title": "KORG WAVESTATE WAVE SEQUENCING SYNTHESIZER",
+	"description": "KORG’s legendary Wavestation introduced the world to Wave Sequencing, transforming raw samples into sounds that no-one had ever heard before. The flagship OASYS and KRONOS keyboards developed Wave Sequencing even further, expanding on its unique palette of lush, evolving pads and driving rhythms. \n\nNow, KORG is proud to announce the next step in digital synthesis: the wavestate. Featuring the radically re-imagined Wave Sequencing 2.0, the wavestate delivers astonishing, ever-changing sounds with extensive hands-on control. \n\nFar from a nostalgic reissue, the wavestate is designed from the ground up for a new generation of musicians, producers, and composers, taking cues from sources as diverse as modular synths, groove boxes, and algorithmic composition. The compact form-factor, with 37 full-size keys, transports easily and fits neatly into any stage, studio, or desktop setup.\n\nWave Sequencing 2.0\nExtensive modulation with hands-on control\nGigabytes of samples\nModeled filters, including MS-20 and Polysix\n64 stereo voices\n4 Layers with Vector control\n14 simultaneous effects\nSet Lists and Smooth Sound Transitions\nRandomization\nCompact. Great design. 37 full-size keys.\nDesigned by Korg R&D in California\n\nWith the Wavestation, each step of a Wave Sequence had a duration, a sample, and a pitch. This created ear-catching patterns–but the patterns repeated the same way, over and over. What if they could evolve in organic, unexpected ways, instead of just repeating? \n\nWave Sequencing 2.0 splits apart the timing, the sequence of samples, and the melody, so that each can be manipulated independently. Also added are new characteristics including shapes, gate times, and step sequencer values. Each of these is a “Lane,” and each Lane can have a different number of steps and its own start, end, and loop points. \n\nEvery time the sequence moves forward, the individual Lanes are combined to create the output. For instance, a sample may be matched with a different duration, pitch, shape, gate length, and step sequence value every time that it plays. You can modulate each Lane’s start, end, and loop points separately for every note, using velocity, LFOs, envelopes, Mod Knobs, or other controllers. Each note in a chord can be playing something different! \n\nLanes can also randomize the step order every time they play, with realtime control over the range of included steps. Finally, individual steps can be randomly skipped, with a modulatable probability from 0 to 100%. The result is organic, ever-changing sounds that respond to your control. The four onboard arpeggiators can interact with Wave Sequences for even more possibilities.",
+	"price": 396,
+	"shipping": null,
+	"currency": "CAD",
+	"site": "https://moogaudio.com/",
+	"url": "https://moogaudio.com/collections/sales/products/korg-wavestate-wave-sequencing-synthesizer",
+	"posted": null,
+	"tags": [
+		"KORG",
+		"WAVESTATE",
+		"WAVE",
+		"SEQUENCING",
+		"SYNTHESIZER"
+	],
+	"inStock": true
+}

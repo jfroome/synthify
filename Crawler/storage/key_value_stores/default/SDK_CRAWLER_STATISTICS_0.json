@@ -1,0 +1,39 @@
+{
+  "requestsFinished": 117,
+  "requestsFailed": 46,
+  "requestsRetries": 0,
+  "requestsFailedPerMinute": 26,
+  "requestsFinishedPerMinute": 68,
+  "requestMinDurationMillis": 1057,
+  "requestMaxDurationMillis": 8223,
+  "requestTotalFailedDurationMillis": 273404,
+  "requestTotalFinishedDurationMillis": 313427,
+  "crawlerStartedAt": "2023-01-16T21:45:04.018Z",
+  "crawlerFinishedAt": null,
+  "statsPersistedAt": "2023-01-16T21:46:44.993Z",
+  "crawlerRuntimeMillis": 102994,
+  "crawlerLastStartTimestamp": 1673905501999,
+  "requestRetryHistogram": [
+    163
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 5944,
+  "requestAvgFinishedDurationMillis": 2679,
+  "requestTotalDurationMillis": 586831,
+  "requestsTotal": 163,
+  "requestsWithStatusCode": {
+    "200": 117
+  },
+  "errors": {
+    "D:\\vscodeprojects\\GenericCrawler\\node_modules\\@crawlee\\src\\crawlers\\crawler_utils.ts:12:11": {
+      "missing error code": {
+        "Error": {
+          "Navigation timed out after 5 seconds.": {
+            "count": 46
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {}
+}

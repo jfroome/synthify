@@ -1,0 +1,9 @@
+{
+	"id": "BIGZrxmcLVHR3zz",
+	"json": "{\"id\":\"BIGZrxmcLVHR3zz\",\"url\":\"https://cicadasound.ca/collections/used?page=2\",\"loadedUrl\":\"https://cicadasound.ca/collections/used?page=2\",\"uniqueKey\":\"https://cicadasound.ca/collections/used?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"CICADA_NEXT\"},\"handledAt\":\"2023-01-16T21:46:44.891Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cicadasound.ca/collections/used?page=2",
+	"url": "https://cicadasound.ca/collections/used?page=2"
+}
