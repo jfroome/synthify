@@ -1,6 +1,6 @@
 {
 	"id": "w63cxCHjOf5ttz7",
-	"json": "{\"id\":\"w63cxCHjOf5ttz7\",\"url\":\"https://www.spacemanmusic.com/product/korg-03r-w/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/korg-03r-w/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/korg-03r-w\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\"},\"handledAt\":\"2023-01-16T21:45:40.968Z\"}",
+	"json": "{\"id\":\"w63cxCHjOf5ttz7\",\"url\":\"https://www.spacemanmusic.com/product/korg-03r-w/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/korg-03r-w/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/korg-03r-w\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:16:47.109Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

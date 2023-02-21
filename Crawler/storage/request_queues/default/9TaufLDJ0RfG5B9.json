@@ -1,9 +1,0 @@
-{
-	"id": "9TaufLDJ0RfG5B9",
-	"json": "{\"id\":\"9TaufLDJ0RfG5B9\",\"url\":\"https://www.kijiji.ca/v-performance-dj-equipment/ottawa/behringer-model-d-synthesizer/1644778930\",\"uniqueKey\":\"https://www.kijiji.ca/v-performance-dj-equipment/ottawa/behringer-model-d-synthesizer/1644778930\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[\"Error: Navigation timed out after 5 seconds.\\n    at handleRequestTimeout (D:\\\\vscodeprojects\\\\GenericCrawler\\\\node_modules\\\\@crawlee\\\\src\\\\crawlers\\\\crawler_utils.ts:12:11)\\n    at PlaywrightCrawler._handleNavigationTimeout (D:\\\\vscodeprojects\\\\GenericCrawler\\\\node_modules\\\\@crawlee\\\\src\\\\internals\\\\browser-crawler.ts:576:33)\\n    at PlaywrightCrawler._handleNavigation (D:\\\\vscodeprojects\\\\GenericCrawler\\\\node_modules\\\\@crawlee\\\\src\\\\internals\\\\browser-crawler.ts:543:24)\\n    at async PlaywrightCrawler._runRequestHandler (D:\\\\vscodeprojects\\\\GenericCrawler\\\\node_modules\\\\@crawlee\\\\src\\\\internals\\\\browser-crawler.ts:474:13)\\n    at async PlaywrightCrawler._runRequestHandler (D:\\\\vscodeprojects\\\\GenericCrawler\\\\node_modules\\\\@crawlee\\\\src\\\\internals\\\\playwright-crawler.ts:227:9)\\n    at async wrap (D:\\\\vscodeprojects\\\\GenericCrawler\\\\node_modules\\\\@apify\\\\src\\\\index.ts:77:27)\"],\"headers\":{},\"userData\":{\"label\":\"KIJIJI_STOCK_CHECK\"},\"handledAt\":\"2023-01-16T21:46:30.003Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.kijiji.ca/v-performance-dj-equipment/ottawa/behringer-model-d-synthesizer/1644778930",
-	"url": "https://www.kijiji.ca/v-performance-dj-equipment/ottawa/behringer-model-d-synthesizer/1644778930"
-}

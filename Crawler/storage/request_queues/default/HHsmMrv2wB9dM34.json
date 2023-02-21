@@ -1,6 +1,6 @@
 {
 	"id": "HHsmMrv2wB9dM34",
-	"json": "{\"id\":\"HHsmMrv2wB9dM34\",\"url\":\"https://www.spacemanmusic.com/product/roland-ax-edge/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/roland-ax-edge/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/roland-ax-edge\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\"},\"handledAt\":\"2023-01-16T21:45:32.829Z\"}",
+	"json": "{\"id\":\"HHsmMrv2wB9dM34\",\"url\":\"https://www.spacemanmusic.com/product/roland-ax-edge/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/roland-ax-edge/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/roland-ax-edge\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:16:13.023Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

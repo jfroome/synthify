@@ -1,6 +1,6 @@
 {
 	"id": "WcIf512WA7HU10K",
-	"json": "{\"id\":\"WcIf512WA7HU10K\",\"url\":\"https://www.spacemanmusic.com/product/roland-jx-305/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/roland-jx-305/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/roland-jx-305\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\"},\"handledAt\":\"2023-01-16T21:45:17.264Z\"}",
+	"json": "{\"id\":\"WcIf512WA7HU10K\",\"url\":\"https://www.spacemanmusic.com/product/roland-jx-305/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/roland-jx-305/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/roland-jx-305\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:16:13.956Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

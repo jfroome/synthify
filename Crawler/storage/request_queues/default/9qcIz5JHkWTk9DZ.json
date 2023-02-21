@@ -1,6 +1,6 @@
 {
 	"id": "9qcIz5JHkWTk9DZ",
-	"json": "{\"id\":\"9qcIz5JHkWTk9DZ\",\"url\":\"https://www.spacemanmusic.com/product/akai-mpc-studio/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/akai-mpc-studio/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/akai-mpc-studio\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\"},\"handledAt\":\"2023-01-16T21:45:45.531Z\"}",
+	"json": "{\"id\":\"9qcIz5JHkWTk9DZ\",\"url\":\"https://www.spacemanmusic.com/product/akai-mpc-studio/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/akai-mpc-studio/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/akai-mpc-studio\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:17:15.922Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

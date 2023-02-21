@@ -1,6 +1,6 @@
 {
 	"id": "c65gpIRbKVsxlS3",
-	"json": "{\"id\":\"c65gpIRbKVsxlS3\",\"url\":\"https://www.spacemanmusic.com/product/korg-electribe-2/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/korg-electribe-2/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/korg-electribe-2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\"},\"handledAt\":\"2023-01-16T21:45:47.208Z\"}",
+	"json": "{\"id\":\"c65gpIRbKVsxlS3\",\"url\":\"https://www.spacemanmusic.com/product/korg-electribe-2/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/korg-electribe-2/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/korg-electribe-2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:16:37.891Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

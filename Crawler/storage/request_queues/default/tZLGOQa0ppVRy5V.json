@@ -1,6 +1,6 @@
 {
 	"id": "tZLGOQa0ppVRy5V",
-	"json": "{\"id\":\"tZLGOQa0ppVRy5V\",\"url\":\"https://www.spacemanmusic.com/product/roland-u220/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/roland-u220/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/roland-u220\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\"},\"handledAt\":\"2023-01-16T21:45:17.342Z\"}",
+	"json": "{\"id\":\"tZLGOQa0ppVRy5V\",\"url\":\"https://www.spacemanmusic.com/product/roland-u220/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/roland-u220/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/roland-u220\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:16:15.570Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,
