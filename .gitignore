@@ -1,3 +1,7 @@
+Crawler/node_modules/**
+Crawler/storage/**
+Crawler/storage/key_value_stores/default/**
+Crawler/storage/request_queues/default/**
 Crawler/storage/request_queues/default/*.json
 Crawler/storage/key_value_stores/default/SDK_CRAWLER_STATISTICS_0.json
 Crawler/storage/key_value_stores/default/SDK_SESSION_POOL_STATE.json
