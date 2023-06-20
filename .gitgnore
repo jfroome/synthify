@@ -1,0 +1,4 @@
+Crawler/node_modules/**
+Crawler/storage/**
+Crawler/storage/key_value_stores/default/**
+Crawler/storage/request_queues/default/**
