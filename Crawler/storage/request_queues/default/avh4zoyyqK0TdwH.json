@@ -1,6 +1,6 @@
 {
 	"id": "avh4zoyyqK0TdwH",
-	"json": "{\"id\":\"avh4zoyyqK0TdwH\",\"url\":\"https://www.spacemanmusic.com/product/cme-uf5/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/cme-uf5/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/cme-uf5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\"},\"handledAt\":\"2023-01-16T21:45:30.298Z\"}",
+	"json": "{\"id\":\"avh4zoyyqK0TdwH\",\"url\":\"https://www.spacemanmusic.com/product/cme-uf5/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/cme-uf5/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/cme-uf5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:16:33.275Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

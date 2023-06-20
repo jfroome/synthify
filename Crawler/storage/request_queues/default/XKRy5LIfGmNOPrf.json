@@ -1,6 +1,6 @@
 {
 	"id": "XKRy5LIfGmNOPrf",
-	"json": "{\"id\":\"XKRy5LIfGmNOPrf\",\"url\":\"https://cicadasound.ca/collections/used/products/h969-propitch-harmonizer-used\",\"loadedUrl\":\"https://cicadasound.ca/collections/used/products/h969-propitch-harmonizer-used\",\"uniqueKey\":\"https://cicadasound.ca/collections/used/products/h969-propitch-harmonizer-used\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"CICADA_DETAILS\"},\"handledAt\":\"2023-01-16T21:46:38.534Z\"}",
+	"json": "{\"id\":\"XKRy5LIfGmNOPrf\",\"url\":\"https://cicadasound.ca/collections/used/products/h969-propitch-harmonizer-used\",\"loadedUrl\":\"https://cicadasound.ca/collections/used/products/h969-propitch-harmonizer-used\",\"uniqueKey\":\"https://cicadasound.ca/collections/used/products/h969-propitch-harmonizer-used\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"CICADA_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:17:40.869Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,
