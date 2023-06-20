@@ -1,4 +1,4 @@
 node_modules/**
 storage/**
-storage/key_value_stores/**
-storage/request_queues/**
+storage/key_value_stores/default/**
+storage/request_queues/default/**
