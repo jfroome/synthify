@@ -1,6 +1,6 @@
 {
 	"id": "F8vKrzFiPcMGhNj",
-	"json": "{\"id\":\"F8vKrzFiPcMGhNj\",\"url\":\"https://www.spacemanmusic.com/product/e-mu-esi-2000/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/e-mu-esi-2000/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/e-mu-esi-2000\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:16:07.791Z\"}",
+	"json": "{\"id\":\"F8vKrzFiPcMGhNj\",\"url\":\"https://www.spacemanmusic.com/product/e-mu-esi-2000/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/e-mu-esi-2000/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/e-mu-esi-2000\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-06-21T20:18:43.440Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

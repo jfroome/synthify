@@ -1,9 +1,0 @@
-{
-	"id": "yp1Z6dxwocmtkjH",
-	"json": "{\"id\":\"yp1Z6dxwocmtkjH\",\"url\":\"https://cicadasound.ca/collections/used?page=3\",\"loadedUrl\":\"https://cicadasound.ca/collections/used?page=3\",\"uniqueKey\":\"https://cicadasound.ca/collections/used?page=3\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"CICADA_NEXT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:15:38.571Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://cicadasound.ca/collections/used?page=3",
-	"url": "https://cicadasound.ca/collections/used?page=3"
-}

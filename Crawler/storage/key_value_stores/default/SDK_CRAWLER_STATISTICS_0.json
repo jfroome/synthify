@@ -1,49 +1,40 @@
 {
-  "requestsFinished": 91,
-  "requestsFailed": 33,
+  "requestsFinished": 90,
+  "requestsFailed": 20,
   "requestsRetries": 0,
-  "requestsFailedPerMinute": 10,
-  "requestsFinishedPerMinute": 30,
-  "requestMinDurationMillis": 1427,
-  "requestMaxDurationMillis": 11228,
-  "requestTotalFailedDurationMillis": 233360,
-  "requestTotalFinishedDurationMillis": 325724,
-  "crawlerStartedAt": "2023-02-21T21:15:05.874Z",
-  "crawlerFinishedAt": "2023-02-21T21:18:02.056Z",
-  "statsPersistedAt": "2023-02-21T21:18:02.056Z",
-  "crawlerRuntimeMillis": 182766,
-  "crawlerLastStartTimestamp": 1677014099290,
+  "requestsFailedPerMinute": 16,
+  "requestsFinishedPerMinute": 76,
+  "requestMinDurationMillis": 1117,
+  "requestMaxDurationMillis": 5788,
+  "requestTotalFailedDurationMillis": 107737,
+  "requestTotalFinishedDurationMillis": 223709,
+  "crawlerStartedAt": "2023-06-21T20:18:40.135Z",
+  "crawlerFinishedAt": "2023-06-21T20:19:50.286Z",
+  "statsPersistedAt": "2023-06-21T20:19:50.286Z",
+  "crawlerRuntimeMillis": 70711,
+  "crawlerLastStartTimestamp": 1687378719575,
   "requestRetryHistogram": [
-    124
+    110
   ],
   "statsId": 0,
-  "requestAvgFailedDurationMillis": 7072,
-  "requestAvgFinishedDurationMillis": 3579,
-  "requestTotalDurationMillis": 559084,
-  "requestsTotal": 124,
+  "requestAvgFailedDurationMillis": 5387,
+  "requestAvgFinishedDurationMillis": 2486,
+  "requestTotalDurationMillis": 331446,
+  "requestsTotal": 110,
   "requestsWithStatusCode": {
-    "200": 92
+    "200": 91
   },
   "errors": {
-    "D:\\CodeProjects\\synthify\\synthify\\Crawler\\node_modules\\@crawlee\\src\\crawlers\\crawler_utils.ts:12:11": {
+    "D:\\vscodeprojects\\synthify\\Crawler\\node_modules\\@crawlee\\src\\crawlers\\crawler_utils.ts:12:11": {
       "missing error code": {
         "Error": {
           "Navigation timed out after 5 seconds.": {
-            "count": 22
+            "count": 19
           }
         }
       }
     },
-    "<anonymous>": {
-      "missing error code": {
-        "Error": {
-          "Navigation timed out after 5 seconds.": {
-            "count": 10
-          }
-        }
-      }
-    },
-    "D:\\CodeProjects\\synthify\\synthify\\Crawler\\node_modules\\@apify\\src\\index.ts:88:74": {
+    "D:\\vscodeprojects\\synthify\\Crawler\\node_modules\\@apify\\src\\index.ts:88:74": {
       "missing error code": {
         "Error": {
           "requestHandler timed out after 5 seconds.": {

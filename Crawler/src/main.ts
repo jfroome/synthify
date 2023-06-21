@@ -13,25 +13,10 @@ const crawler = new PlaywrightCrawler({
 
 log.debug('Adding requests to the queue.');
 
-await crawler.addRequests(await QueueManager.getExistingLinks());
-await crawler.addRequests(
-    [   
-        {
-            label: 'CICADA_NEXT',
-            url: 'https://cicadasound.ca/collections/used'
-        },
-        {
-            label: 'SM_NEXT',
-            url: 'https://www.spacemanmusic.com/shop/keyboards/'
-        },
-        {
-            label: 'MOOG_NEXT',
-            url: 'https://moogaudio.com/collections/sales?q=synth'
-        }, 
-        {
-            label: 'KIJIJI',
-            url: 'https://www.kijiji.ca/'
-        }
-    ]);
+const links = await QueueManager.getExistingLinks()
+
+console.log(links)
+
+await crawler.addRequests(links);
 await crawler.run();
 await QueueManager.flush();  

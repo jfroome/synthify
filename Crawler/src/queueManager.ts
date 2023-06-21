@@ -38,8 +38,8 @@ export module QueueManager {
       console.log(exception);
     }
   }
-  export async function getExistingLinks(): Promise<string[]> {
-    return getLinks();
+  export async function getExistingLinks(): Promise<{ label: string; url: string; }[]> {
+    return await getLinks();
   }
   export async function markAsSold(url: string) {
     console.log("Listing was detected as sold: " + url)
@@ -98,33 +98,32 @@ async function getLinks(): Promise<any[]> {
     const response = await fetch('http://localhost:3000/api/links/get');
     const data = await response.json()
     //@ts-ignore
-
     data.links.map((url) => {
       //@ts-ignore
       var hostname = new URL(url).hostname;
       switch (hostname) {
         case "www.spacemanmusic.com":
           links.push({
-            url: url,
-            label: 'SM_DETAILS'
+            label: 'SM_DETAILS',
+            url: url
           });
           break;
         case "moogaudio.com":
           links.push({
-            url: url,
-            label: 'MOOG_DETAILS'
+            label: 'MOOG_DETAILS',
+            url: url
           });
           break;
         case "cicadasound.ca":
           links.push({
-            url: url,
-            label: 'CICADA_DETAILS'
+            label: 'CICADA_DETAILS',
+            url: url
           });
           break;
         case "www.kijiji.ca":
           links.push({
-            url: url,
-            label: 'KIJIJI_STOCK_CHECK'
+            label: 'KIJIJI_STOCK_CHECK',
+            url: url
           });
           return;
         default: return;
@@ -134,6 +133,22 @@ async function getLinks(): Promise<any[]> {
     console.log(exception);
   }
   console.log(links);
+  links.push({
+    label: 'CICADA_NEXT',
+    url: 'https://cicadasound.ca/collections/used'
+  },
+  {
+    label: 'SM_NEXT',
+    url: 'https://www.spacemanmusic.com/shop/keyboards/'
+  },
+  {
+    label: 'MOOG_NEXT',
+    url: 'https://moogaudio.com/collections/sales?q=synth'
+  },
+  {
+    label: 'KIJIJI',
+    url: 'https://www.kijiji.ca/'
+  })
   return links;
 }
 

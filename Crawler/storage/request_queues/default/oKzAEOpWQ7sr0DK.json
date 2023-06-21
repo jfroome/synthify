@@ -1,9 +1,0 @@
-{
-	"id": "oKzAEOpWQ7sr0DK",
-	"json": "{\"id\":\"oKzAEOpWQ7sr0DK\",\"url\":\"https://www.spacemanmusic.com/product/casio-vl-tone-vl-1/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/casio-vl-tone-vl-1/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/casio-vl-tone-vl-1\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:17:12.151Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.spacemanmusic.com/product/casio-vl-tone-vl-1",
-	"url": "https://www.spacemanmusic.com/product/casio-vl-tone-vl-1/"
-}

@@ -1,9 +1,0 @@
-{
-	"id": "sXB0iAezVmyCIoq",
-	"json": "{\"id\":\"sXB0iAezVmyCIoq\",\"url\":\"https://www.spacemanmusic.com/product/akai-mpc2500/\",\"loadedUrl\":\"https://www.spacemanmusic.com/product/akai-mpc2500/\",\"uniqueKey\":\"https://www.spacemanmusic.com/product/akai-mpc2500\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"label\":\"SM_DETAILS\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2023-02-21T21:16:44.129Z\"}",
-	"method": "GET",
-	"orderNo": null,
-	"retryCount": 0,
-	"uniqueKey": "https://www.spacemanmusic.com/product/akai-mpc2500",
-	"url": "https://www.spacemanmusic.com/product/akai-mpc2500/"
-}
